@@ -1,12 +1,7 @@
-.terraform/
 *.tfstate
 *.tfstate.*
+.terraform/
+crash.log
+*.tfvars
+!terraform.tfvars.example
 node_modules/
-.vscode/
-.idea/
-.DS_Store
-*.log
-.cache/
-dist/
-build/
-coverage/
